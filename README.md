@@ -5,7 +5,7 @@ jdbc test demo
 * Spring 3.1.1
 * jdk 1.7
 * tomcat 8
-* Altibase
+* mysql / Altibase
 
 # Run jdbctest-web
 1. Copy the accordion project using git clone.
