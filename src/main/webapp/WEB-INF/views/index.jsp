@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>ALTIBASE-JDBC</title>
+    <title>JDBC-TEST</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./resources/css/bootstrap.min.css" rel="stylesheet">
@@ -31,10 +31,10 @@
           <form class="needs-validation" id="form" name="form" role="form" method="post" action="monitoring" data-toggle="validator"><!-- novalidate -->
         	<div class="row">
 	        	<div class="col-md-6">
-	          		<h4 class="mb-3">ALITBASE JDBC TEST</h4>
+	          		<h4 class="mb-3">JDBC TEST</h4>
 	          	</div>
 	        	<div class="col-md-6">
-	        	  	<button type="button" class="btn btn-outline-primary" id="monitoringBtn" style="float: right;">Monitoring</button>
+	        	  	&nbsp;
 	          	</div>
           	</div>
             <div class="mb-3">
@@ -51,14 +51,14 @@
             <div class="row">
               <div class="col-md-6 mb-3">
 				<label for="serverIp">Server IP</label>
-	            <input type="text" class="form-control" id="serverIp" name="serverIp" placeholder="" value="master" required>
+	            <input type="text" class="form-control" id="serverIp" name="serverIp" placeholder="" value="" required>
 	            <div class="invalid-feedback">
 	             	Server IP를 입력하세요.
 	            </div>
               </div>
               <div class="col-md-6 mb-3">
 				<label for="serverPort">Server Port</label>
-              	<input type="text" class="form-control" id="serverPort" name="serverPort" placeholder=""  value="20001" required>
+              	<input type="text" class="form-control" id="serverPort" name="serverPort" placeholder=""  value="" required>
               	<div class="invalid-feedback">
                 	Server Port를 입력하세요.
               	</div>
@@ -68,14 +68,14 @@
             <div class="row">
               <div class="col-md-6 mb-3">
 				<label for="id">ID</label>
-	            <input type="text" class="form-control" id="id" name="id" placeholder="" value="altibase" required>
+	            <input type="text" class="form-control" id="id" name="id" placeholder="" value="" required>
 	            <div class="invalid-feedback">
 	             	ID를 입력하세요.
 	            </div>
               </div>
               <div class="col-md-6 mb-3">
 				<label for="password">Password</label>
-              	<input type="password" class="form-control" id="password" name="password" placeholder=""  value="altibase" required>
+              	<input type="password" class="form-control" id="password" name="password" placeholder=""  value="" required>
               	<div class="invalid-feedback">
                 	Password를 입력하세요.
               	</div>
@@ -85,7 +85,7 @@
             <div class="row">
               <div class="col-md-6 mb-3">
 				<label for="jdbcDriver">JDBC Driver</label>
-              	<input type="text" class="form-control" id="jdbcDriver" name="jdbcDriver" placeholder="" value="Altibase.jdbc.driver.AltibaseDriver" required>
+              	<input type="text" class="form-control" id="jdbcDriver" name="jdbcDriver" placeholder="" value="com.mysql.jdbc.Driver" required>
               	<div class="invalid-feedback">
                 	JDBC Driver를 입력하세요.
               	</div>
