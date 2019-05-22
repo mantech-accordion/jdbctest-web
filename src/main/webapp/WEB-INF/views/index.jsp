@@ -31,7 +31,7 @@
           <form class="needs-validation" id="form" name="form" role="form" method="post" action="monitoring" data-toggle="validator"><!-- novalidate -->
         	<div class="row">
 	        	<div class="col-md-6">
-	          		<h4 class="mb-3">JDBC TEST</h4>
+	          		<h4 class="mb-3">JDBC TEST - demo</h4>
 	          	</div>
 	        	<div class="col-md-6">
 	        	  	&nbsp;
