@@ -51,14 +51,14 @@
             <div class="row">
               <div class="col-md-6 mb-3">
 				<label for="serverIp">Server IP</label>
-	            <input type="text" class="form-control" id="serverIp" name="serverIp" placeholder="" value="jdbc:goldilocks://" required>
+	            <input type="text" class="form-control" id="serverIp" name="serverIp" placeholder="" value="jdbc:goldilocks://goldilocks" required>
 	            <div class="invalid-feedback">
 	             	Server IP를 입력하세요.
 	            </div>
               </div>
               <div class="col-md-6 mb-3">
 				<label for="serverPort">Server Port</label>
-              	<input type="text" class="form-control" id="serverPort" name="serverPort" placeholder=""  value="" required>
+              	<input type="text" class="form-control" id="serverPort" name="serverPort" placeholder=""  value="22581" required>
               	<div class="invalid-feedback">
                 	Server Port를 입력하세요.
               	</div>
@@ -92,7 +92,7 @@
               </div>
               <div class="col-md-6 mb-3">
 				<label for="serverPort">Schema</label>
-              	<input type="text" class="form-control" id="schema" name="schema" placeholder=""  value="mydb" required>
+              	<input type="text" class="form-control" id="schema" name="schema" placeholder=""  value="test" required>
               	<div class="invalid-feedback">
                 	Schema를 입력하세요.
               	</div>
