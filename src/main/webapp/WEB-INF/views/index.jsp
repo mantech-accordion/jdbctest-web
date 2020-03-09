@@ -51,7 +51,7 @@
             <div class="row">
               <div class="col-md-6 mb-3">
 				<label for="serverIp">Server IP</label>
-	            <input type="text" class="form-control" id="serverIp" name="serverIp" placeholder="" value="" required>
+	            <input type="text" class="form-control" id="serverIp" name="serverIp" placeholder="" value="jdbc:goldilocks://" required>
 	            <div class="invalid-feedback">
 	             	Server IP를 입력하세요.
 	            </div>
@@ -85,7 +85,7 @@
             <div class="row">
               <div class="col-md-6 mb-3">
 				<label for="jdbcDriver">JDBC Driver</label>
-              	<input type="text" class="form-control" id="jdbcDriver" name="jdbcDriver" placeholder="" value="com.mysql.jdbc.Driver" required>
+              	<input type="text" class="form-control" id="jdbcDriver" name="jdbcDriver" placeholder="" value="sunje.goldilocks.jdbc.GoldilocksDriver" required>
               	<div class="invalid-feedback">
                 	JDBC Driver를 입력하세요.
               	</div>
