@@ -62,7 +62,7 @@ public class JdbcController {
 		try {
 			Class.forName(jdbcDriver);
 			
-			String url = "jdbc:mysql://"+serverIp+":"+serverPort+"/" + schema;
+			String url = serverIp+":"+serverPort+"/" + schema;
 			con = DriverManager.getConnection(url, id, password);
 			
 			ResultSet rs = null;
