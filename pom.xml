@@ -3,8 +3,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mantech</groupId>
-	<artifactId>altibase-jdbc</artifactId>
-	<name>altibase-jdbc</name>
+	<artifactId>goldilocks-jdbc</artifactId>
+	<name>goldilocks-jdbc</name>
 	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
 	<properties>
@@ -146,11 +146,11 @@
 		</dependency>
 			
 		<dependency>
-			<groupId>altibase</groupId>
-			<artifactId>altibase-connector-java</artifactId>
+			<groupId>goldilocks</groupId>
+			<artifactId>goldilocks-connector-java</artifactId>
 			<scope>system</scope>
-			<version>1.5.0</version>
-			<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/Altibase.jar</systemPath>
+			<version>6.0</version>
+			<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/goldilocks6.jar</systemPath>
 		</dependency>
 		
 	</dependencies>
